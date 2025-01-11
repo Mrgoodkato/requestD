@@ -1,5 +1,11 @@
 To launch chrome in debugging port:
-chrome.exe --remote-debugging-port=9223
+$ chrome.exe --remote-debugging-port=9223
 
 To check debugging port in browser:
 http://127.0.0.1:9223/json
+
+To freeze requirements:
+$ pip freeze > requirements.txt
+
+To deploy requirements:
+$ pip install -r requirements.txt
